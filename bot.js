@@ -17,10 +17,5 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'link') {
-    	message.reply('https://discord.gg/NmvjhSr');
-  	}
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
